@@ -1357,7 +1357,7 @@ input,button,select,textarea{
 .select{
     position: relative;
 }
-/* .options,#name,#email{
+.options,#name,#email{
     border-radius: 48px;
     border: 1px solid #ddd;
     height: 48px;
@@ -1369,7 +1369,7 @@ input,button,select,textarea{
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-} */
+}
 .home2 .options,.home2 #name,.home2 #email {
     border-radius: 5px;
 } 
@@ -2083,6 +2083,7 @@ footer{
     width: 70px;
 }
 .export_item{
+    height: auto;
     border: 1px solid #f3f3f3;
     text-align: center;
     padding: 45px 55px 40px;
@@ -3359,6 +3360,15 @@ label[for="login_check"]{
     height:49px;
     width: 49px;
 }
+
+.image-crop{
+    position: absolute;
+    bottom: 0px;
+}
+.image-crop2{
+    position: absolute;
+    bottom: -76px;
+}
  
 /*===================================================
                    Start Responsive CSS
@@ -3814,6 +3824,14 @@ label[for="login_check"]{
 }
 /* Mobile Layout */
 @media only screen and (max-width: 767px) {
+    .image-crop{
+        position: unset;
+        bottom: 0px;
+    }
+    .image-crop2{
+        position: unset;
+        bottom: 0px;
+    }
     .container {
         width: 300px;
     }
@@ -3850,7 +3868,7 @@ label[for="login_check"]{
         line-height:40px;
     }
     .supplier_country {        
-        position: static; 
+        /* position: static;  */
         padding-left:0;
     }    
     .country{
@@ -4070,7 +4088,7 @@ label[for="login_check"]{
     }
     /* About us html */
     .about_info{
-        padding: 0px 0 18px;
+        padding: 40px 0 18px;
     }
     .about_us.feedback{
         padding-bottom: 120px;
@@ -4098,10 +4116,10 @@ label[for="login_check"]{
     }
     .supplier_title h1{
         font-size: 21px;
-        padding: 0 0 10px 0;
+        padding: 0 0 30px 0;
     }
     .breadcrumb {
-        padding: 82px 0 0 0;
+        padding: 110px 0 0 0;
     }
     .export_item{
         padding: 20px;
@@ -4135,7 +4153,7 @@ label[for="login_check"]{
     }
     /* contact html */
     .contact_me{
-        padding-top:0;
+        padding-top:40px;
     }
     .single_contact{
         margin-bottom: 25px;

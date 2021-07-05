@@ -273,11 +273,11 @@
 							<h1>Send Your Message</h1>
 						</div>
 						<form id="messageForm" class="messageForm">
-							<input type="text" id="name" placeholder="Name :" pattern="[A-Za-z]"
+							<input type="text" id="message_name" placeholder="Name :" pattern="[A-Za-z]"
 								title="Alphabets allowed only" required>
 							<input type="text" id="mobile" placeholder="Phone Number:" pattern="[0-9]{20}"
 								title="Enter number only" required>
-							<input type="email" id="email" placeholder="Email :" required>
+							<input type="email" id="message_email" placeholder="Email :" required>
 							<input type="text" id="subject" placeholder="Subject :">
 							<textarea placeholder="Message" id="message"></textarea>
 							<button type="button" class="btn3" onclick="sendMessageEmail()">Send Me</button>
@@ -635,9 +635,9 @@
       debugger
 			// if (!messageForm.valid())
 			// 	return
-			var name = $.trim($("#name").val())
+			var name = $.trim($("#message_name").val())
 			var mobile = $.trim($("#mobile").val())
-			var email = $.trim($("#email").val())
+			var email = $.trim($("#message_email").val())
 			var subject = $.trim($("#subject").val())
 			var message = $.trim($("#message").val())
 			Email.send({
