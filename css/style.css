@@ -996,7 +996,7 @@ input,button,select,textarea{
 .service_image .svg{
    margin-top: 20px;   
     height: 35px;
-    fill: #b82429;
+    fill: black;
 }
 .service_area1,.service_area2{
     position: relative;
