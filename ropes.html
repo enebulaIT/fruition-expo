@@ -1570,6 +1570,20 @@ $('.slider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
   line-height: 300px;
 }
 
+@media only screen and (max-width: 767px) {
+  .slider ul li {
+      width: 250px;
+      height: 170px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .slider ul li {
+      width: 380px;
+      height: 300px;
+  }
+}
+
 .slider ul li img{
   height: inherit;
   width: inherit;

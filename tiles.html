@@ -1609,7 +1609,19 @@ $('.slider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
   height: 400px;
   background: #ccc;
   text-align: center;
-  line-height: 400px;
+}
+@media only screen and (max-width: 767px) {
+  .slider ul li {
+      width: 250px;
+      height: 190px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .slider ul li {
+      width: 380px;
+      height: 320px;
+  }
 }
 
 .slider ul li img{
