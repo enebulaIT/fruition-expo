@@ -499,7 +499,7 @@ input,button,select,textarea{
     top: 100%;
     left:auto;
     right:0;
-    width: 400px;
+    width: 820px;
     z-index: 20;
     text-align: left;
     padding: 25px;
@@ -507,7 +507,7 @@ input,button,select,textarea{
     visibility: hidden;
 }
 .mega_menu3 .mega_menu,.mega_menu4 .mega_menu{
-    width: 945px;
+    width: 820px;
 }
 .mega:hover .mega_menu{
     opacity: 1;
@@ -520,8 +520,8 @@ input,button,select,textarea{
     margin-bottom: 10px;
 }
 .catg{
-    width: 50%;
-    /* width: 25%; */
+    /* width: 50%; */
+    width: 25%;
     float: left;
 }
 .style_div{
@@ -3389,13 +3389,13 @@ label[for="login_check"]{
       padding: 0 12px;    
     }
     .mega_menu{
-        width: 400;
+        width: 820px;
         left: -290px;
     }
     .mega:hover .mega_menu{
         left: auto;
-        right: 90;
-        /* right: 0; */
+        /* right: 90; */
+        right: 0;
     }
     .single_services {
         padding: 0;  
@@ -3526,7 +3526,7 @@ label[for="login_check"]{
         left:auto
     }
     .mega_menu,.mega_menu3 .mega_menu,.mega_menu4 .mega_menu{
-        width: 400px;
+        width: 700px;
     }
     .log_in_info{
         padding: 0 10px;
