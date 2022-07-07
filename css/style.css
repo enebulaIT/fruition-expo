@@ -173,6 +173,10 @@ input,button,select,textarea{
 .fix_p_l{
     padding-left:0;
 }
+.fqa{
+    height : 450px;
+    width : 800px;
+}
 /*----section title style------*/
 .title_style{
     text-align: center;
